@@ -1,6 +1,16 @@
+# Kernel module build artifacts
 *.o
 *.ko
 *.mod
 *.mod.c
 *.symvers
 modules.order
+
+# Temporary build files
+*.cmd
+.tmp_versions/
+
+# Editor / OS junk (optional but recommended)
+*~
+*.swp
+.DS_Store
